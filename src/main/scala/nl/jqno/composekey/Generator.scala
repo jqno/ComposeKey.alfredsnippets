@@ -24,8 +24,9 @@ object Generator extends App {
 
   val alfredSnippets = for {
     s <- sourceSnippets
-    k <- s.keywords
-  } yield AlfredSnippet(s.snippet, UUID.randomUUID(), s.snippet, k)
+    (k, i) <- s.keywords.zipWithIndex
+    name = if (s.keywords.size > 1) s"${s.snippet} (${i + 1})" else s.snippet
+  } yield AlfredSnippet(s.snippet, UUID.randomUUID(), name, k)
 
 
 
@@ -37,7 +38,7 @@ object Generator extends App {
   for (as <- alfredSnippets) {
     val s = AlfredContainer(as)
     val j = Json.prettyPrint(Json.toJson(s))
-    val f = new File(tempDir, s"${as.name} [${as.uid}]").toPath
+    val f = new File(tempDir, s"${as.name} [${as.uid}].json").toPath
     Files.write(f, j.getBytes, StandardOpenOption.CREATE)
   }
 
