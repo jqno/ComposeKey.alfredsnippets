@@ -89,6 +89,7 @@
   { "snippet": "ź", "name": "small z with acute", "keywords": [ "z'", "'z" ] },
   { "snippet": "ž", "name": "small z with caron", "keywords": [ "z<", ">z" ] },
   { "snippet": "ż", "name": "small z with dot above", "keywords": [ "z.", ".z" ] },
+  
   { "snippet": "Á", "name": "capital A with acute", "keywords": [ "A'", "'A" ] },
   { "snippet": "Ă", "name": "capital A with breve", "keywords": [ "A(", "(A" ] },
   { "snippet": "Â", "name": "capital A with circumflex", "keywords": [ "A^", "^A" ] },
@@ -176,6 +177,7 @@
   { "snippet": "Ź", "name": "capital Z with acute", "keywords": [ "Z'", "'Z" ] },
   { "snippet": "Ž", "name": "capital Z with caron", "keywords": [ "Z<", "<Z" ] },
   { "snippet": "Ż", "name": "capital Z with dot above", "keywords": [ "Z.", ".Z" ] },
+
   { "snippet": "…", "name": "punctuation ellipsis", "keywords": [ ".." ] },
   { "snippet": "—", "name": "punctuation em dash", "keywords": [ "---" ] },
   { "snippet": "–", "name": "punctuation en dash", "keywords": [ "--." ] },
@@ -184,9 +186,11 @@
   { "snippet": "‽", "name": "punctuation interrobang", "keywords": [ "!?", "?!" ] },
   { "snippet": "«", "name": "punctuation guillemets left", "keywords": [ "<<" ] },
   { "snippet": "»", "name": "punctuation guillemets right", "keywords": [ ">>" ] },
+
   { "snippet": "€", "name": "currency euro sign", "keywords": [ "e=", "=e", "c=", "=c" ] },
   { "snippet": "£", "name": "currency pound sign", "keywords": [ "l-", "-l", "L-", "-L" ] },
   { "snippet": "¥", "name": "currency yen sign", "keywords": [ "y=", "=y", "Y=", "=Y" ] },
+
   { "snippet": "½", "name": "vulgar fraction one half", "keywords": [ "12" ] },
   { "snippet": "⅓", "name": "vulgar fraction one third", "keywords": [ "13" ] },
   { "snippet": "⅔", "name": "vulgar fraction two thirds", "keywords": [ "23" ] },
@@ -201,6 +205,7 @@
   { "snippet": "⅜", "name": "vulgar fraction three eighths", "keywords": [ "38" ] },
   { "snippet": "⅝", "name": "vulgar fraction five eighths", "keywords": [ "58" ] },
   { "snippet": "⅞", "name": "vulgar fraction seven eighths", "keywords": [ "78" ] },
+
   { "snippet": "°", "name": "symbol degree", "keywords": [ "oo" ] },
   { "snippet": "÷", "name": "symbol division", "keywords": [ "-:", ":-" ] },
   { "snippet": "•", "name": "symbol filled bullet", "keywords": [ ".=", "=." ] },
@@ -221,11 +226,11 @@
   { "snippet": "¬", "name": "symbol logical not", "keywords": [ ",-", "-," ] },
   { "snippet": "⎋", "name": "symbol computer escape", "keywords": [ "esc" ] },
   { "snippet": "↹", "name": "symbol computer tab", "keywords": [ "tab" ] },
-  { "snippet": "⇧", "name": "symbol computer shift", "keywords": [ "sft" ] },
+  { "snippet": "⇧", "name": "symbol computer shift", "keywords": [ "shift" ] },
   { "snippet": "⌘", "name": "symbol computer command", "keywords": [ "cmd" ] },
   { "snippet": "⎇", "name": "symbol computer alt-option", "keywords": [ "alt", "opt" ] },
   { "snippet": "↵", "name": "symbol computer enter", "keywords": [ "ent" ] },
-  { "snippet": "⎄", "name": "symbol computer compose", "keywords": [ "cps" ] },
+  { "snippet": "⎄", "name": "symbol computer compose", "keywords": [ "compose" ] },
   { "snippet": "©", "name": "symbol copyright", "keywords": [ "co", "oc" ] },
   { "snippet": "®", "name": "symbol registered", "keywords": [ "ro", "or" ] },
   { "snippet": "™", "name": "symbol trademark", "keywords": [ "tm" ] },
@@ -244,6 +249,8 @@
   { "snippet": "♥", "name": "symbol heart", "keywords": [ "<3" ] },
   { "snippet": "→", "name": "symbol right arrow", "keywords": [ "->" ] },
   { "snippet": "←", "name": "symbol left arrow", "keywords": [ "<-" ] },
+  { "snippet": "↑", "name": "symbol up arrow", "keywords": [ "|^", "^|" ] },
+  { "snippet": "↓", "name": "symbol down arrow", "keywords": [ "|v", "v|" ] },
   { "snippet": "⇒", "name": "symbol right double arrow", "keywords": [ "=>" ] },
   { "snippet": "☭", "name": "symbol hammer and sickle", "keywords": [ "cccp" ] }
 ]
