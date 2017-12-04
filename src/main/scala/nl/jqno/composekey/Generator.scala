@@ -43,7 +43,7 @@ object Generator extends App {
   }
 
   def copyToTempDir(name: String) =
-    Resources.asByteSource(cl.getResource(name)).copyTo(GFiles.asByteSink(new File(tempDir, "info.plist")))
+    Resources.asByteSource(cl.getResource(name)).copyTo(GFiles.asByteSink(new File(tempDir, name)))
 
   copyToTempDir("info.plist")
   copyToTempDir("icon.png")
