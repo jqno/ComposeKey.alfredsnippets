@@ -25,7 +25,7 @@ object Generator extends App {
   val alfredSnippets = for {
     s <- sourceSnippets
     (k, i) <- s.keywords.zipWithIndex
-    name = if (s.keywords.size > 1) s"${s.snippet} (${i + 1})" else s.snippet
+    name = if (s.keywords.size > 1) s"${s.name} (${i + 1})" else s.name
   } yield AlfredSnippet(s.snippet, UUID.randomUUID(), name, k)
 
 
