@@ -17,7 +17,9 @@ lazy val root = (project in file("."))
     mainClass := Some("nl.jqno.composekey.Generator"),
 
     libraryDependencies ++= Seq(
-      "com.typesafe.play" %% "play-json" % "2.6.7"
+      "com.typesafe.play" %% "play-json" % "2.6.7",
+      "com.google.guava" % "guava" % "23.5-jre",
+      "org.zeroturnaround" % "zt-zip" % "1.12"
     )
   )
 
