@@ -21,12 +21,14 @@
     h1 a { text-decoration: none }
     h2 { font-size: 1.5em; color: #000000; }
     h3 { text-align: center; color: #000000; }
+    li { padding-top: 1.3em; }
     a { color: #000000; }
-    .description { font-size: 1.2em; margin-bottom: 30px; margin-top: 30px; font-style: italic;}
+    .description { font-size: 1.2em; margin-bottom: 30px; margin-top: 30px; font-style: italic; }
     .download { float: right; }
-    pre { background: #000; color: #fff; padding: 15px;}
-    code { background: #000; color: #fff;}
-    hr { border: 0; width: 80%; border-bottom: 1px solid #aaa}
+    pre { background: #000; color: #fff; padding: 15px; }
+    hr { border: 0; width: 80%; border-bottom: 1px solid #aaa }
+    .code {
+      font-weight: bold; }
     .footer { text-align:center; padding-top:30px; font-style: italic; }
   </style>
 </head>
@@ -41,38 +43,57 @@
     </div>
 
     <h1><a href="https://github.com/jqno/ComposeKey.alfredsnippets">ComposeKey</a>
-      <span class="small">by <a href="https://jqno.nl">Jan Ouwens</a></span></h1>
+        <span class="small">by <a href="https://jqno.nl">Jan Ouwens</a></span></h1>
 
     <div class="description">
-      Brings the power of Linux's Compose Key to macOS through Alfred
+        Brings the power of Linux's Compose Key to macOS through Alfred
     </div>
 
     <h2>What?</h2>
     <p>
-      ComposeKey is an <a href="https://www.alfredapp.com/">Alfred</a> snippet bundle that simulates Linux's compose key.
+        ComposeKey is an <a href="https://www.alfredapp.com/">Alfred</a> snippet bundle that simulates Linux's <a href="https://en.wikipedia.org/wiki/Compose_key">compose key</a>.
     </p>
 
     <h2>Why?</h2>
     <p>
-      I wrote a blog post about this which you can read <a href="http://jqno.nl/post/2013/10/12/a-better-way-of-typing/">here</a>.<br><br>
-      TL;DR: Entering special characters is a nuisance, even on macOS. To add an acute to a letter, you need <code>⎇e</code>; to add an umlaut you need <code>⎇u</code>. For œ, you somehow need <code>⎇q</code> This is pretty hard to remember.<br><br>
-      With ComposeKey, it's a lot easier. To get é, you simply type <code>§'e</code>. Ä is <code>§"A</code> and œ is <code>§oe</code>. Easy!
+        I wrote a blog post about this which you can read <a href="http://jqno.nl/post/2013/10/12/a-better-way-of-typing/">here</a>.<br><br>
+        TL;DR: Entering special characters is a nuisance, even on macOS. To add an acute to a letter, you need <span class="code">⎇e</span>; to add an umlaut you need <span class="code">⎇u</span>. For œ, you somehow need <span class="code">⎇q</span>. This is pretty hard to remember.<br><br>
+        With ComposeKey, it's a lot easier. To get é, you simply type <span class="code">§'e</span>. Ä is <span class="code">§"A</span> and œ is <span class="code">§oe</span>. Easy!
     </p>
 
     <h2>How?</h2>
     <p>
-      You can download the latest release <a href="https://github.com/jqno/ComposeKey.alfredsnippets/releases/latest">on the Downloads page</a>.
+        <ul>
+            <li>
+                Download the latest release <a href="https://github.com/jqno/ComposeKey.alfredsnippets/releases/latest">on the Downloads page</a>.
+            </li>
+            <li>
+                Open the <span class="code">ComposeKey.alfredsnippets</span> file (e.g. by doubleclicking it).
+            </li>
+            <li>
+                Uncheck <strong>Strip snippets of 'auto expand' flag</strong>.
+                <img border="0" width="600" src="install1.png" alt="install1">
+            </li>
+            <li>
+                Check <strong>Automatically expand snippets by keyword</strong>, and click the little cogwheel next to it.
+                <img border="0" width="600" src="install2.png" alt="install2">
+            </li>
+            <li>
+                Check <strong>Expand snippets mid-string</strong>.
+                <img border="0" width="600" src="install3.png" alt="install3">
+            </li>
+        </ul>
     </p>
 
 
     <h2>Whatever</h2>
     <p>
-      If you want to report an issue, go to the <a href="https://github.com/jqno/ComposeKey.alfredsnippets/issues">GitHub issues page</a>.<br>
-      You can contact the author on Twitter: <a href="https://twitter.com/jqno">@jqno</a>.
-      <br><br>
-      Copyright © 2017 by Jan Ouwens<br>
-      This program is free software, released under the MIT license License.
-      For more information, see the <a href="https://github.com/jqno/ComposeKey.alfredsnippets/blob/master/LICENSE">License document</a>.
+        If you want to report an issue, go to the <a href="https://github.com/jqno/ComposeKey.alfredsnippets/issues">GitHub issues page</a>.<br>
+        You can contact the author on Twitter: <a href="https://twitter.com/jqno">@jqno</a>.
+        <br><br>
+        Copyright © 2017 by Jan Ouwens<br>
+        This program is free software, released under the MIT license License.
+        For more information, see the <a href="https://github.com/jqno/ComposeKey.alfredsnippets/blob/master/LICENSE">License document</a>.
     </p>
     
   </div>
