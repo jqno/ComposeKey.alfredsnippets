@@ -239,7 +239,7 @@
   { "snippet": "ª", "name": "symbol feminine ordinal", "keywords": [ "a_", "_a" ] },
   { "snippet": "º", "name": "symbol masculine ordinal", "keywords": [ "o_", "_o" ] },
   { "snippet": "¶", "name": "symbol pilcrow", "keywords": [ "p!", "!p" ] },
-  { "snippet": "§", "name": "symbol section", "keywords": [ "s!", "!s" ] },
+  { "snippet": "§", "name": "symbol section", "keywords": [ "§", "s!", "!s" ] },
   { "snippet": "√", "name": "symbol square root", "keywords": [ "v/", "/v" ] },
   { "snippet": "♩", "name": "symbol music quarter note", "keywords": [ "#q" ] },
   { "snippet": "♪", "name": "symbol music eighth note", "keywords": [ "#e" ] },
