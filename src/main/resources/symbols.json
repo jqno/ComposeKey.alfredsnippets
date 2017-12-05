@@ -1,4 +1,6 @@
 [
+  { "snippet": "https://jqno.github.com/ComposeKey.alfredsnippets", "name": "# by Jan Ouwens", "keywords": [ "# more info here:" ] },
+
   { "snippet": "á", "name": "small a with acute", "keywords": [ "a'", "'a" ] },
   { "snippet": "ă", "name": "small a with breve", "keywords": [ "a(", "(a" ] },
   { "snippet": "â", "name": "small a with circumflex", "keywords": [ "a^", "^a" ] },
@@ -89,7 +91,7 @@
   { "snippet": "ź", "name": "small z with acute", "keywords": [ "z'", "'z" ] },
   { "snippet": "ž", "name": "small z with caron", "keywords": [ "z<", ">z" ] },
   { "snippet": "ż", "name": "small z with dot above", "keywords": [ "z.", ".z" ] },
-  
+
   { "snippet": "Á", "name": "capital A with acute", "keywords": [ "A'", "'A" ] },
   { "snippet": "Ă", "name": "capital A with breve", "keywords": [ "A(", "(A" ] },
   { "snippet": "Â", "name": "capital A with circumflex", "keywords": [ "A^", "^A" ] },
